@@ -17,6 +17,21 @@ $ composer require marothyzsolt/viewmodel
 
 ## Usage
 
+## Available Commands
+
+```bash
+$ php artisan make:view-model
+```
+Create a new empty View Model class.
+
+```bash
+$ php artisan make:view-model-component
+```
+
+```bash
+$ php artisan make:view-model-component --base
+```
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
@@ -37,7 +52,7 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [author name][link-author]
+- [Marothy Zsolt][link-author]
 - [All Contributors][link-contributors]
 
 ## License
