@@ -1,0 +1,20 @@
+<?php
+
+namespace DummyNamespace;
+
+use MarothyZsolt\ViewModel\ViewModel;
+
+
+class DummyClass extends ViewModel
+{
+
+    public function setUp() // main constructor
+    {
+        //
+    }
+
+    public function build()
+    {
+        //
+    }
+}
