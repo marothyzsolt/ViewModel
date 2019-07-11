@@ -13,6 +13,7 @@ class ViewModelMakeCommand extends GeneratorCommand
     protected $name = 'make:view-model';
     protected $description = 'Create a new ViewModel class';
     protected $type = 'ViewModel';
+
     public function handle()
     {
         if (parent::handle() === false) {

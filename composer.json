@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "marothyzsolt\\ViewModel\\": "src/"
+            "MarothyZsolt\\ViewModel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "marothyzsolt\\ViewModel\\Tests\\": "tests"
+            "MarothyZsolt\\ViewModel\\Tests\\": "tests"
         }
     },
     "extra": {
