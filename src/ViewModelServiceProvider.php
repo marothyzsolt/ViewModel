@@ -3,6 +3,7 @@
 namespace MarothyZsolt\ViewModel;
 
 use Illuminate\Support\ServiceProvider;
+use MarothyZsolt\ViewModel\Console\ViewModelComponentMakeCommand;
 use MarothyZsolt\ViewModel\Console\ViewModelMakeCommand;
 
 class ViewModelServiceProvider extends ServiceProvider
@@ -42,6 +43,7 @@ class ViewModelServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 ViewModelMakeCommand::class,
+                ViewModelComponentMakeCommand::class
             ]);
         }
     }
